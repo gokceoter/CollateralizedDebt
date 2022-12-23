@@ -4,8 +4,8 @@ pragma solidity ^0.8;
 
 //import "@openzeppelin/contracts/token/ERC20/IERC20.sol";
 import "./IERC20.sol";
-
-contract Loan {
+//loan contract
+contract Loan { 
     address public lender;
     address public borrower;
     IERC20 public token;
